@@ -1,0 +1,230 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="app.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>My Golf Tracker</title>
+    </head>
+    <body>
+        <!--Main Navigation Menu-->
+        <div id="main-nav">
+        <ul>
+            <li class="nav-li"><a href="#">Home</a></li>
+            <li class="nav-li"><a href="#">History</a></li>
+            <li class="nav-li"><a href="#">Stats</a></li>
+        </ul>
+        <h1 id="main-header">
+                My Golf Tracker
+            </h1>
+
+            <!--STATS-->
+        <div class="stats">
+            <h1>Round Stats</h1>
+            <p>Gross Score:</p><input id="gross-score"></input>
+            <p>Nett Score:</p><input id="nett-score"></input>
+            <p>Stableford Score:</p><input id="stableford-score"></input>
+            <p>Total Putts:</p><input id="total-putts"></input>
+            <br>
+            <button type="save" id="save">Save Round</button>
+        </div>
+        
+        </div>
+
+        <!--Selection of Golf Course-->
+        <div class="selections">
+        Select Golf Course
+        <select id="course-select" >
+            <option>Penn Golf Club</option>
+            <option>Perton Park</option>
+        </select>
+        </div>
+
+        <!--Selection which Tees-->
+        <div class="selections">Select Tee's
+            <select id="tee-select">
+            <option id="white">White</option>
+            <option id="yellow">Yellow</option>
+        </select>
+
+    </div>
+        <!--handicap Input-->
+        <div class="selections">Handicap
+            <input id="handicap" placeholder="Enter" action="required">
+        </input>
+    </div>
+        <!--Date of Round Select-->
+    <div class="selections"> Select Date
+        <input type="date" id="date-select"></select>
+    </div>
+
+
+    <!--HOLES-->
+    <div class="container">
+    <article class="front9">
+            <div class="hole">
+                <span>Front</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>Out</span>
+                
+            </div>
+
+            <!--Hole PAR -->
+            <div class="par">
+                <span>Par</span>
+                <span>4</span>
+                <span>4</span>
+                <span>4</span>
+                <span>5</span>
+                <span>4</span>
+                <span>4</span>
+                <span>3</span>
+                <span>4</span>
+                <span>3</span>
+                <span>35</span>
+            </div>
+
+
+            <!-- Stroke Index -->
+            <div class="stroke-index">
+                <span>Index</span>
+                <span>9</span>
+                <span>13</span>
+                <span>3</span>
+                <span>15</span>
+                <span>7</span>
+                <span>5</span>
+                <span>17</span>
+                <span>1</span>
+                <span>11</span>
+                <span>35</span>
+            </div>
+
+            <!--Hole SCORE -->
+            <div class="score">
+                <span>Score</span>
+                <input id="f1" value="" class="score"></input>
+                <input id="f2" value="" class="score"></input>
+                <input id="f3" value="" class="score"></input>
+                <input id="f4" value="" class="score"></input>
+                <input id="f5" value="" class="score"></input>
+                <input id="f6" value="" class="score"></input>
+                <input id="f7" value="" class="score"></input>
+                <input id="f8" value="" class="score"></input>
+                <input id="f9" value="" class="score"></input>
+                <input id="front-nine"></input>
+                
+            </div>
+
+            <!---Putts Made-->
+
+            <div class="putts">
+                    <span>Putts</span>
+                    <input id="p1" value=""></input>
+                    <input id="p2" value=""></input>
+                    <input id="p3" value=""></input>
+                    <input id="p4" value=""></input>
+                    <input id="p5" value=""></input>
+                    <input id="p6" value=""></input>
+                    <input id="p7" value=""></input>
+                    <input id="p8" value=""></input>
+                    <input id="p9" value=""></input>       
+                </div>
+            </div>   
+        </article>
+
+        <!--Back 9-->
+        <div class="container">
+        <article class="back9">
+            <div class="hole">
+                <span>Back</span>
+                <span>10</span>
+                <span>11</span>
+                <span>12</span>
+                <span>13</span>
+                <span>14</span>
+                <span>15</span>
+                <span>16</span>
+                <span>17</span>
+                <span>18</span>
+                <span>In</span>
+                
+            </div>
+
+            <!--Hole PAR -->
+            <div class="par">
+                <span>Par</span>
+                <span>5</span>
+                <span>3</span>
+                <span>4</span>
+                <span>3</span>
+                <span>5</span>
+                <span>4</span>
+                <span>4</span>
+                <span>3</span>
+                <span>5</span>
+                <span>35</span>
+                
+            </div>
+
+            <!--Stroke Index-->
+            <div class="stroke-index">
+                <span>Index</span>
+                <span>12</span>
+                <span>18</span>
+                <span>2</span>
+                <span>16</span>
+                <span>4</span>
+                <span>8</span>
+                <span>14</span>
+                <span>6</span>
+                <span>10</span>
+                <span>35</span>
+            </div>
+
+            <!--Score Back 9-->
+            <div class="score">
+                <span>Score</span>
+                <input id="b1" value=""></input>
+                <input id="b2" value=""></input>
+                <input id="b3" value=""></input>
+                <input id="b4" value=""></input>
+                <input id="b5" value=""></input>
+                <input id="b6" value=""></input>
+                <input id="b7" value=""></input>
+                <input id="b8" value=""></input>
+                <input id="b9" value=""></input>
+                <input id="back-nine"></input>
+            </div>
+
+            <!--Putts Back 9-->
+            <div class="putts">
+                    <span>Putts</span>
+                    <input id="p10" value=""></input>
+                    <input id="p11" value=""></input>
+                    <input id="p12" value=""></input>
+                    <input id="p13" value=""></input>
+                    <input id="p14" value=""></input>
+                    <input id="p15" value=""></input>
+                    <input id="p16" value=""></input>
+                    <input id="p17" value=""></input> 
+                    <input id="p18" value=""></input>
+                </div>
+            
+
+            <button type="submit" id="submit-score" onclick="grossScore()">Submit Score</button>
+            <button type="button" value="Reset" onclick="clearInp()">Clear Scorecard</button>
+
+                
+    </body>
+    <script src="main.js"></script>
+    </html>

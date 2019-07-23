@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Barriecito|Russo+One&display=swap");
+
+#main-nav ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: rgb(168, 165, 165);
+}
+
+#main-nav li {
+  display: inline;
+  padding: 30px;
+  font-family: Russo One;
+}
+
+#course-select {
+  padding: 5px;
+  width: 150px;
+  font-size: 16px;
+  font-family: Russo One;
+  color: rgb(101, 114, 114)
+  
+}
+
+#tee-select {
+  padding: 5px;  
+  width: 120px;
+  font-size: 16px;
+  font-family: Russo One;
+  color: rgb(101, 114, 114)
+}
+
+#tee-select #yellow {
+  padding: 5px;
+  width: 150px;
+  background-color: yellow;
+}
+
+#main-header {
+  color: rgb(83, 168, 83);
+  margin-top: 70px;
+  margin-left: 2vw;
+  font-size: 40px;
+  font-family: Russo One;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#handicap {
+  width: 30px;
+}
+
+#date-select {
+  padding: 5px;
+  width: 150px;
+  color: rgb(97, 94, 93);
+  font-family: Russo One;
+  text-align: center;
+}
+
+.container {
+  margin-left: 2vw;
+  }
+
+
+.front9,
+.back9 {
+  margin-bottom: 3em;
+}
+
+.hole {
+  background-color: #f63;
+  color: #fff;
+  width: 580px;
+  margin-bottom: 10px;
+}
+
+.par {
+  background-color: #ccc;
+  color: #777;
+  width: 580px;
+  margin-bottom: 10px;
+}
+
+.stroke-index {
+  background-color: rgb(247, 158, 158);
+  color: rgb(255, 255, 255);
+  width: 580px;
+  margin-bottom: 10px;
+}
+
+.score {
+  color: rgb(19, 18, 18);
+  width: 580px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.score #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+  width: 3em;
+  margin-left: 4px;
+}
+
+#front-nine {
+  width: 3em;
+}
+
+#back-nine {
+  width: 3em;
+}
+
+.putts {
+  color: rgb(14, 13, 13);
+  width: 580px;
+  margin-bottom: 10px;
+}
+
+.putts #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15, #p16, #p17, #p18 {
+  width: 3em;
+  margin-left: 4px;
+}
+
+span {
+  border: rgba(0, 0, 0, 0.25) solid 0px;
+  border-width: 0 0 0 1px;
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+}
+
+input,
+.fairway {
+  margin-left: 2.8px;
+  color: rgb(7, 7, 7);
+  max-width: 100%;
+  font-weight: 700;
+  
+}
+
+input {
+  width: 3.6em;
+  height: 3em;
+  text-align: center;
+  border: rgba(0, 0, 0, 0.25) solid 0px;
+  border-width: 1px 1px 1px 1px;
+  display: inline-block;
+  width: 3.8em;
+  font-family: arial;
+  font-weight: bold;
+  max-width: 100%;
+  margin-right: 1px;
+}
+
+.selections #handicap {
+  width: 2em;
+  padding: 0.5;
+  margin-bottom: 0px;
+  border: rgba(0, 0, 0, 0.25) solid 0px;
+  border-width: 0.5px 0.5px 0.5px 0.5px;
+  display: inline-block;
+  width: 3em;
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(29, 28, 28);
+  font-size: 13px;
+}
+
+.selections {
+  padding: 5px;
+  font-family: Russo One;
+  color: rgb(95, 92, 92);
+  margin-bottom: 20px;
+  margin-left: 2vw;
+}
+
+.selections #date-select {
+  margin-bottom: 2em;
+  font-size: 16px;
+  height: 1em;
+}
+
+.stats {
+  float: right;
+  max-width: 100%;
+  font-family: Russo One;
+  color: rgb(90, 86, 86);
+  display: inline;
+  margin-top: 5%;
+  margin-right: 20vw;
+}
+
+#save {
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: Russo One;
+  color: dimgrey;
+}
+
+#submit-score {
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: Russo One;
+  color: dimgrey;
+}
+
+button {
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: Russo One;
+  color: dimgrey;
+}
